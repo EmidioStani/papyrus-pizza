@@ -30,7 +30,7 @@
       </slot>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_9pdZAGWiEeaSrstvmYYNiA" name="Person">
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_BjIGMHNtEeaaUaJFOmBnZA" name="Surname" type="_oV8uMGWZEeaSrstvmYYNiA"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_BjIGMHNtEeaaUaJFOmBnZA" name="surname" type="_oV8uMGWZEeaSrstvmYYNiA"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_jAJWUGn7EeaqJdYwOPiaeg" name="son">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_t6wX0Gn9EeaqJdYwOPiaeg" name="mybirth" type="_tWCsoHLOEeaT4-ge7uCz9A"/>
