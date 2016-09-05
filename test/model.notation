@@ -147,6 +147,10 @@
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_79vbIWnhEeaqJdYwOPiaeg" key="collapsed" value="true"/>
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_udoW4HK6EeaT4-ge7uCz9A" key="showTitle" value="true"/>
           </eAnnotations>
+          <children xmi:type="notation:Shape" xmi:id="_DPCOYHNtEeaaUaJFOmBnZA" type="Property_ClassAttributeLabel">
+            <element xmi:type="uml:Property" href="model.uml#_BjIGMHNtEeaaUaJFOmBnZA"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_DPCOYXNtEeaaUaJFOmBnZA"/>
+          </children>
           <styles xmi:type="notation:TitleStyle" xmi:id="_9pktxmWiEeaSrstvmYYNiA"/>
           <styles xmi:type="notation:SortingStyle" xmi:id="_9pktx2WiEeaSrstvmYYNiA"/>
           <styles xmi:type="notation:FilteringStyle" xmi:id="_9pktyGWiEeaSrstvmYYNiA"/>
