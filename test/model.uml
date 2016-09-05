@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_KJwMEGU7Eea_tLvZss15xQ" name="RootElement">
+  <packagedElement xmi:type="uml:Package" xmi:id="_3cf98GWWEeaSrstvmYYNiA" name="Pizzeria">
+    <packagedElement xmi:type="uml:Class" xmi:id="_JMJ2kGWXEeaSrstvmYYNiA" name="Pizza">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_7Wfm8GWZEeaSrstvmYYNiA" name="Ingredient" type="_oV8uMGWZEeaSrstvmYYNiA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GMoDAGWaEeaSrstvmYYNiA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GMqfQGWaEeaSrstvmYYNiA" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_HJ0ZQHK6EeaT4-ge7uCz9A" name="myson" visibility="public" type="_jAJWUGn7EeaqJdYwOPiaeg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Og8poGWaEeaSrstvmYYNiA" name="Pizzaiolo">
+      <generalization xmi:type="uml:Generalization" xmi:id="_qiTwsGWcEeaSrstvmYYNiA" general="_iGMgAGWcEeaSrstvmYYNiA"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_SEaJUGWaEeaSrstvmYYNiA" name="Name" type="_oV8uMGWZEeaSrstvmYYNiA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_iGMgAGWcEeaSrstvmYYNiA" name="Job"/>
+    <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_iODJkGWeEeaSrstvmYYNiA" name="John" classifier="_Og8poGWaEeaSrstvmYYNiA">
+      <slot xmi:type="uml:Slot" xmi:id="_9QCJMGWeEeaSrstvmYYNiA" definingFeature="_SEaJUGWaEeaSrstvmYYNiA">
+        <value xmi:type="uml:LiteralString" xmi:id="_EkHa0GWfEeaSrstvmYYNiA" name="Name" value="John"/>
+      </slot>
+      <slot xmi:type="uml:Slot" xmi:id="_B9W-gGWgEeaSrstvmYYNiA" definingFeature="_fD43g2WaEeaSrstvmYYNiA">
+        <value xmi:type="uml:InstanceValue" xmi:id="_MTMw8GWgEeaSrstvmYYNiA" instance="_NqyEYGWfEeaSrstvmYYNiA"/>
+      </slot>
+    </packagedElement>
+    <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_NqyEYGWfEeaSrstvmYYNiA" name="Margherita" classifier="_JMJ2kGWXEeaSrstvmYYNiA">
+      <slot xmi:type="uml:Slot" xmi:id="_TOC4oGWfEeaSrstvmYYNiA" definingFeature="_7Wfm8GWZEeaSrstvmYYNiA">
+        <value xmi:type="uml:LiteralString" xmi:id="_X6rm4GWfEeaSrstvmYYNiA" name="Ingredient" value="Mozzarella"/>
+      </slot>
+      <slot xmi:type="uml:Slot" xmi:id="_ZxNDoGWfEeaSrstvmYYNiA" definingFeature="_7Wfm8GWZEeaSrstvmYYNiA">
+        <value xmi:type="uml:LiteralString" xmi:id="_ePjeQGWfEeaSrstvmYYNiA" name="Ingredient" value="Tomato"/>
+      </slot>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_9pdZAGWiEeaSrstvmYYNiA" name="Person"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_jAJWUGn7EeaqJdYwOPiaeg" name="son">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_t6wX0Gn9EeaqJdYwOPiaeg" name="mybirth" type="_tWCsoHLOEeaT4-ge7uCz9A"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_qBCpYGn_EeaqJdYwOPiaeg" name="DateTime"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_tWCsoHLOEeaT4-ge7uCz9A" name="Text">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_HNM7EHLTEeaT4-ge7uCz9A" name="language" type="_oV8uMGWZEeaSrstvmYYNiA"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_oV8uMGWZEeaSrstvmYYNiA" name="String"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_fD43gGWaEeaSrstvmYYNiA" memberEnd="_fD43g2WaEeaSrstvmYYNiA _fD43hGWaEeaSrstvmYYNiA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fD43gWWaEeaSrstvmYYNiA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fD43gmWaEeaSrstvmYYNiA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_fD43hGWaEeaSrstvmYYNiA" name="isPreparedBy" type="_Og8poGWaEeaSrstvmYYNiA" association="_fD43gGWaEeaSrstvmYYNiA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_fD43g2WaEeaSrstvmYYNiA" name="prepares" type="_JMJ2kGWXEeaSrstvmYYNiA" association="_fD43gGWaEeaSrstvmYYNiA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_LWIkYGWjEeaSrstvmYYNiA" name="hasJob3" memberEnd="_LWLAomWjEeaSrstvmYYNiA _LWUxoGWjEeaSrstvmYYNiA" navigableOwnedEnd="_LWLAomWjEeaSrstvmYYNiA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LWLAoGWjEeaSrstvmYYNiA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LWLAoWWjEeaSrstvmYYNiA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_LWUxoGWjEeaSrstvmYYNiA" type="_9pdZAGWiEeaSrstvmYYNiA" association="_LWIkYGWjEeaSrstvmYYNiA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_LWLAomWjEeaSrstvmYYNiA" type="_iGMgAGWcEeaSrstvmYYNiA" association="_LWIkYGWjEeaSrstvmYYNiA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gzrEAGWjEeaSrstvmYYNiA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_g0IXAGWjEeaSrstvmYYNiA" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>
